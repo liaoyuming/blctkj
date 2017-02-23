@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>百联长通科技</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link rel="stylesheet" href="./css/style.css"/>
+</head>
+<body>
+	<div class="header">
+		<img src="./images/logo.png" class="fl logo">
+		<ul class="nav">
+			<li>
+				<a href="http://kaopu3.duapp.com/blctkj/index.html">首页</a>
+			</li>
+			<li>
+				<a href="http://kaopu3.duapp.com/blctkj/company-intro.html">关于我们</a>
+			</li> 
+			<li>
+				<a href="javascript:;">产品与解决方案</a>
+				<ul class="dropdown">
+					<li>
+						<a href="http://kaopu3.duapp.com/blctkj/produce1.html">动力总能测试</a>
+					</li>
+					<li>
+						<a href="http://kaopu3.duapp.com/blctkj/produce3.html">数据采集</a>
+					</li>
+					<li>
+						<a href="http://kaopu3.duapp.com/blctkj/produce4.html">刷写与诊断</a>
+					</li>
+					<li>
+						<a href="http://kaopu3.duapp.com/blctkj/produce2.html">辅助设备</a>
+					</li>
+				</ul>
+			</li> 
+			<li>
+				<a href="http://kaopu3.duapp.com/blctkj/trends.html">最新动态</a>
+			</li> 
+			<li>
+				<a href="http://kaopu3.duapp.com/blctkj/contact-us.html" class="nav-on">联系我们</a>
+			</li> 
+		</ul>
+	</div>
+	<div class="banner banner8">
+		
+	</div>
+	<div class="article">
+		<div class="aside fl">
+			<div class="aside-til">
+				CONTACT US
+			</div>
+			<ul>
+				<li>
+					<a class="aside-nav-on">
+						联系我们<i></i>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="contact-us">
+			<p>
+				北京百联长通科技有限公司
+			</p>
+			<p>
+				地址：北京市大兴区地盛西路6号BDA国际广场N栋6层
+			</p>
+			<p>
+				电话：010-51240648
+			</p>
+			<p>
+				传真：010-59767617
+			</p>
+			<p>
+				网址：www.hardcan.com
+			</p>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="foot-wrap">
+			<img src="./images/BCT.png" class="BCT fl">
+			<div class="footer-link fr">
+				<ul>
+					<li>
+						<p>
+							<a href="http://kaopu3.duapp.com/blctkj/produce1.html"><strong>动力总能测试</strong></a>
+						</p>
+						<p>
+							<a href="http://kaopu3.duapp.com/blctkj/produce1.html#11">飞轮扭矩测试系统</a>
+						</p>
+						<p>
+							<a href="http://kaopu3.duapp.com/blctkj/produce1.html#12">测试设备</a>
+						</p>
+						<p>
+							<a href="http://kaopu3.duapp.com/blctkj/produce1.html#13">模拟设备</a>
+						</p>
+					</li>
+					<li>
+						<p>
+							<a href="http://kaopu3.duapp.com/blctkj/produce3.html"><strong>数据采集</strong></a>
+						</p>
+						<p>
+							<a href="http://kaopu3.duapp.com/blctkj/produce3.html#31">数据采集模块</a>
+						</p>
+						<p>
+							<a href="http://kaopu3.duapp.com/blctkj/produce3.html#32">数据记录仪</a>
+						</p>
+					</li>
+					<li>
+						<p>
+							<a href="http://kaopu3.duapp.com/blctkj/produce4.html"><strong>诊断与刷写</strong></a>
+						</p>
+						<p>
+							<a href="http://kaopu3.duapp.com/blctkj/produce4.html#41">MUX TOOLS</a>
+						</p>
+						<p>
+							<a href="http://kaopu3.duapp.com/blctkj/produce4.html#42">XCM FLASH SYSTEM</a>
+						</p>
+						<p>
+							<a href="http://kaopu3.duapp.com/blctkj/produce4.html#43">摩托车故障诊断仪</a>
+						</p>
+						<p>
+							<a href="http://kaopu3.duapp.com/blctkj/produce4.html#44">汽车故障诊断仪</a>
+						</p>
+					</li>
+					<li>
+						<p>
+							<a href="http://kaopu3.duapp.com/blctkj/produce2.html"><strong>辅助设备</strong></a>
+						</p>
+						<p>
+							<a href="http://kaopu3.duapp.com/blctkj/produce2.html#21">供电设备</a>
+						</p>
+						<p>
+							<a href="http://kaopu3.duapp.com/blctkj/produce2.html#22">线缆</a>
+						</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="link-homapge">
+			www.hardcan.com
+		</div>
+	</div>
+	<script src="./js/jquery-1.8.0.min.js"></script>
+	<script>
+		$(function(){
+			//导航下拉
+			$(".nav>li:eq(2)>a").toggle(function(){
+				if($(this).parent().find("li").length){
+					$(this).parent().find(".dropdown").show();
+				}
+			},function(){
+				if($(this).parent().find("li").length){
+					$(this).parent().find(".dropdown").hide();
+				}
+			});
+		})
+	</script>
+</body>
+</html>
